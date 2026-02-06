@@ -56,7 +56,6 @@ def factorial(n):
     for i in range(1, n+1):
         accumulator *= i
     return accumulator
-
 """
 def largest(xs):
     '''
@@ -75,6 +74,8 @@ def largest(xs):
     10
     >>> largest([])
     '''
+    largest = 0
+    for i in list(range(xs)):
 
 
 def filter_odd(xs):
