@@ -1,6 +1,6 @@
 # CSCI040: Continuous Integration Example
 
-<img src="https://github.com/preslielampitt/example" />
+<img src="https://github.com/preslielampitt/example/workflows/tests/badge.svg" />
 
 This repo is for an in-class example of how to use doctests and continuous integration on github.
 
