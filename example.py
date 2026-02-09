@@ -56,7 +56,7 @@ def factorial(n):
     for i in range(1, n+1):
         accumulator *= i
     return accumulator
-"""
+
 def largest(xs):
     '''
     Return the largest element in a list.
@@ -74,10 +74,13 @@ def largest(xs):
     10
     >>> largest([])
     '''
-    largest = 0
-    for i in list(range(xs)):
+    largest = xs[0]
+    for num in xs:
+        if num > largest:
+            largest = num
+    return largest
 
-
+"""
 def filter_odd(xs):
     '''
     Return a list with all the odd elements removed.
