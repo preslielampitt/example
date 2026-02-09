@@ -74,11 +74,14 @@ def largest(xs):
     10
     >>> largest([])
     '''
-    largest = xs[0]
-    for num in xs:
-        if num > largest:
-            largest = num
-    return largest
+    if len(xs) == 0:
+        return
+    else:
+        largest = xs[0]
+        for num in xs:
+            if num > largest:
+                largest = num
+        return largest
 
 """
 def filter_odd(xs):
