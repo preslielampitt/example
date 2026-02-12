@@ -15,7 +15,6 @@ If you can't do these problems by yourself,
 you definitely won't be able to do the problems that AI can't solve that we will see later in the semester.
 '''
 
-
 ################################################################################
 # PART I:
 # These functions review the control flow and math operations
